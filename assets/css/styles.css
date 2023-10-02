@@ -386,6 +386,48 @@ section.about {
     transform: scale(1.1);
     transition: 1s ease;
   }
+/* styles.css */
+
+/* Work Card - Internship */
+/* Work Card Container */
+.work-experience {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Work Card - Internship */
+.work-card.internship {
+  background-color: #fff;
+  border: 1px solid #e0c658;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(220, 215, 195, 0.5);
+  transition: transform 0.3s ease-in-out;
+  width: calc(50% - 10px);
+}
+
+.work-card.internship:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Work Card - Full-time */
+.work-card.full-time {
+  background-color: #fff;
+  border: 1px solid #e0c658;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(220, 215, 195, 0.5);
+  transition: transform 0.3s ease-in-out;
+  width: calc(50% - 10px);
+}
+
+.work-card.full-time:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgba(224, 198, 88, 0.8);
+}
 
 
 
